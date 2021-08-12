@@ -1,17 +1,25 @@
-footer-container {
+body {
+  margin: 20px;
+}
+
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "section1 section2 section3";
+  grid-gap: 5px;
+  background-color: #fff;
+  color: rgb(140, 210, 223);
+  font-size: 0.75rem;
 }
 
-.section1 {
-  grid-area: section1;
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  height: 120px;
 }
-
-.section2 {
-  grid-area: section2;
-}
-.section3 {
-  grid-area: section3;
+li {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5px;
 }
