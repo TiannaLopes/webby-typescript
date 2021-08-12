@@ -19,6 +19,8 @@ export function App() {
             <Footer />
           </Route>
           <Route path="/about">
+            {/* calculator component here */}
+            {/* game component here */}
             <AboutPage />
           </Route>
           <Route path="/contact">
