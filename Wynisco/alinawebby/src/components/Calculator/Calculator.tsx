@@ -62,8 +62,8 @@ class Calculator extends Component {
       <div>
         <div className="calculator-body">
           <h1>Simple Calculator</h1>
-          <ResultComponent result={this.state.result} />
-           <KeyPadComponent onClick={this.onClick} />
+          {/* <ResultComponent result={this.state.result} /> */}
+          <KeyPadComponent onClick={this.onClick} />
         </div>
       </div>
     );
