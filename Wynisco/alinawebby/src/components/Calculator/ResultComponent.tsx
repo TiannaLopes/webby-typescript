@@ -6,6 +6,7 @@ class ResultComponent extends Component {
     return (
       <div className="result">
         <p>{result}</p>
+        <p>Not working yet</p>
       </div>
     );
   }
